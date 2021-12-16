@@ -1,0 +1,14 @@
+file-upload::part(upload-button) {
+    border: none;
+    color: white;
+    padding: 9px 22px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    position:center;
+}
+.upload1::part(upload-button) {
+    background-color: #af4c4c;
+} 
+.upload2::part(upload-button) {
+    background-color: #383838;
+} 

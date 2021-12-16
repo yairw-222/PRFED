@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+
+
+    <script type="module" src="navbar.js"></script>
+    <script type="module" src="./file_upload.js"></script>
+
+    <navigation-bar active="home" breakpoint="576">
+        <a slot="brand" href="#">Cursus Overzicht</a>
+        <a href="#">Home </a>
+        <a href="#">Cursus Overzicht </a>
+        <a href="#">Cursus Toevoegen </a>
+        <a href="#">File Uploaden </a>
+        <a href="#">Account </a>
+      </navigation-bar>
+
+    
+    <title>Import Excel</title>
+
+
+</head>
+<body>
+    <div class="app">
+        <header>
+            <h1>File Uploaden</h1>
+            <p>Upload hier de gewenste excellfile</p>
+            <file-upload upload-label="Browse..." class="upload1"></file-upload>
+            <file-upload upload-label="Upload Files" class="upload2"></file-upload>
+        </header>
+        
+        
+    </div>
+        
+</body>
+</html>
